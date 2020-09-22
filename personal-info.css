@@ -1,0 +1,233 @@
+body {
+    height: vh;
+    font-family: "proxima-nova", sans-serif;
+}
+
+#nav-bar {
+    width: 6vw;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background: #104832;
+    color: white;
+    /*padding: 0vw 1vw 0vw 1vw*/
+    justify-content: flex-start;
+    font-size: 14px;
+    font-family: "proxima-nova", sans-serif;
+    margin-right: 1vw;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+.active-icon-class{
+    background: white;
+    padding: 9px 3px 0px 3px;
+    color: black;
+}
+.active-icon-class .icon-class-icon i{
+    color: #104832;
+    font-size:1.5rem;
+    font-weight: bold;
+}
+
+.icon-class i{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.icon-class p{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.icon-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon-class-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#page-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 5vw;
+    padding-top: 1vw;
+    line-height: 27.2px;
+}
+
+#form-and-tips {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2vw;
+}
+
+/* Document specific styles */
+.progress-bar{
+    font-weight: 700;
+}
+.heading{
+    background: #104832;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+.description{
+    background: #ADEDD4;
+    color: black;
+    padding: 1vw 1vw 1vw 1vw;
+    border-radius: 5px;
+    margin-top: 1vw;
+}
+.tips-area{
+    display: inline-block;
+    align-items: center;
+    background: #EDD4AB;
+    padding: 5px 20px 15px 20px;
+    width: 25%;
+    border-radius: 5px;
+    height: 35vh;
+}
+.home-icon-class {
+    border: 3px solid white;
+    padding: 9px 1px 0px 1px;
+    margin: 0px 2px 0px 0px;
+    border-radius: 5px;
+}
+
+#form-area{
+    width: 75%;
+    padding-right: 5vw;
+}
+#caption{
+    text-align: center;
+    font-weight: 700;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#gender-section {
+    display: flex;
+    flex-direction: row;
+}
+
+#controls input{
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 0px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.tips-area #controls button{
+    background-color: #104832;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#controls #social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#social-media i{
+    margin: 0px 6px 0px 0px
+}
+
+#form-and-tips{
+    width: 100%;
+}
+
+.field-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.field-group label{
+    width: 20%;
+    font-weight: 700;
+}
+
+.field-group input, select{
+    width: 80%;
+    height: 40px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+#next{
+    background: #104832;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    color: white;
+    height: 40px;
+    margin-top: 25px;
+}
+
+button{
+    font-weight: bold;
+}
+
+/* Footer styles */
+#page-end{
+    margin-top: 30vh;
+    width: 100%;
+}
+
+#footer-information{
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#basic-text, #contact-us, #logo-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5vw;
+    align-items: center;
+}
+
+.footer-header{
+    font-weight: bold;
+}
+
+#page-end a{
+    color: black;
+}
+#logo-flex img{
+    margin-bottom: 1vh;
+}
+#page-end a:hover{
+    color: #104832;
+    text-decoration: underline;
+    font-weight: bold;
+}

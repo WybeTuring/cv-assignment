@@ -1,0 +1,128 @@
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16.5px;
+    line-height: 20px;
+    padding: 10vh 15vw 10vh 15vw;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: blueviolet;
+}
+hr {
+    font-weight: 900;
+    width: 100%;
+    border: 1px solid black;
+}
+.sec-heading{
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.make-bold{
+    font-weight: bold;
+}
+.n-make-bold{
+    font-weight: normal;
+}
+p, ul, li{
+    margin: 0px 0px 0px 0px;
+}
+/*Information section styles*/
+#information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 24px;
+}
+#information #full-name{
+    font-size: 30px;
+}
+
+
+/*Education section styles*/
+#sec-education{
+    display: flex;
+    flex-direction: column;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.education-1, .education-2, .education-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Achievements and Awards styles*/
+.sec-awards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.award{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Work Experience styles*/
+#sec-experience{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.experience-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Projects and Research styles*/
+#sec-projects{
+    display: flex;
+    flex-direction: column;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.project-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Co-curricular activities styles*/
+#sec-activities{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.activities{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.activities-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
